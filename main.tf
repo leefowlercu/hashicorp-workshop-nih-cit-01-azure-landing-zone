@@ -1,5 +1,5 @@
 module "landing_zone" {
-  source  = "${var.tf_hostname}/${var.tf_organization_name}/landing-zone/azurerm"
+  source  = "<tf-hostname>/<tf-organization-name>/<tf-registry-module-name>/azurerm"
   version = "1.0.0"
 
   subscription_name  = var.subscription_name

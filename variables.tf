@@ -1,4 +1,3 @@
-### Module Variables
 variable "subscription_name" {
   type        = string
   description = "Friendly name for the Azure Subscription. Should not include the Subscription Class (nonprod|prod)."
@@ -33,16 +32,4 @@ variable "tags" {
   type        = map(string)
   description = "A mapping of tags to assign to the resource"
   default     = {}
-}
-
-### TF Variables
-variable "tf_hostname" {
-  type        = string
-  description = "The hostname of the HCPTF or TFE instance Azure will use to validate the workload identity federation tokens"
-  default     = "app.terraform.io"
-}
-
-variable "tf_organization_name" {
-  type        = string
-  description = "The name of the HCPTF or TFE organization Azure will use to validate the workload identity federation tokens"
 }
