@@ -1,5 +1,5 @@
 module "landing_zone" {
-  source  = "<terraform-endpoint>/<terraform-organization>/landing-zone/azurerm"
+  source  = "${var.tf_hostname}/${var.tf_organization_name}/landing-zone/azurerm"
   version = "1.0.0"
 
   subscription_name  = var.subscription_name
