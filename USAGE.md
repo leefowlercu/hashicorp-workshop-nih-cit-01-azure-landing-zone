@@ -10,7 +10,7 @@ This repository manages a Terraform Module that creates a very simple "Landing Z
 
 ## Usage
 
-Fork this repository and create two Workspaces in the Customer Workshop HCPTF/TFE Organization. One will target the forked repository's `nonprod` branch and the other will target the forked repository's default (`master`/`main`) branch. Add the required Variables on the Workspaces and Authenticate the AzureRM Provider using Environment Variables in either the Workspace Variables or a Variable Set.
+Fork this repository, then, in your fork, replace <terraform-endpoint> and <terraform-organization> in `main.tf` with the correct values for your Workshop, then create two Workspaces in the Customer Workshop HCPTF/TFE Organization. One will target the forked repository's `nonprod` branch and the other will target the forked repository's default (`master`/`main`) branch. Add the required Variables on the Workspaces and Authenticate the AzureRM Provider using Environment Variables in either the Workspace Variables or a Variable Set.
 
 
 ## Example
