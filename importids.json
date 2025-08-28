@@ -1,0 +1,16 @@
+{
+  "resource_group": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra",
+  "storage_account": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Storage/storageAccounts/stnihcitworkshopnonprod",
+  "subnets": {
+    "app-zone-1": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/app-zone-1",
+    "app-zone-2": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/app-zone-2",
+    "app-zone-3": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/app-zone-3",
+    "data-zone-1": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/data-zone-1",
+    "data-zone-2": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/data-zone-2",
+    "data-zone-3": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/data-zone-3",
+    "web-zone-1": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/web-zone-1",
+    "web-zone-2": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/web-zone-2",
+    "web-zone-3": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra/subnets/web-zone-3"
+  },
+  "virtual_network": "/subscriptions/863a90b0-8aca-4579-aac3-a76ffa0ebe78/resourceGroups/rg-nih-cit-workshop-nonprod-base-infra/providers/Microsoft.Network/virtualNetworks/vnet-nih-cit-workshop-nonprod-base-infra"
+}
