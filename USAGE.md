@@ -13,7 +13,7 @@ This repository manages a Terraform Module that creates a very simple "Landing Z
 
 ### Standard Module Showcase Usage
 
-Fork this repository, then, in your fork, replace `<tf-hostname>`, `<tf-organization-name>`, and `<tf-registry-module-name>` in `main.tf` with the correct values for your workshop, then create two workspaces in the customer workshop HCPTF/TFE organization. One will target the forked repository's `nonprod` branch and the other will target the forked repository's default (`master`/`main`) branch. Add the required variables on the workspaces and authenticate the `azurerm` provider using environment variables in either the workspace variables or a variable set.
+Fork this repository (including all branches), then, in your fork, replace `<tf-hostname>`, `<tf-organization-name>`, `<tf-registry-module-name>`, and `<tf-registry-module-version>` in `main.tf` with the correct values for your workshop, then create two workspaces in the customer workshop HCPTF/TFE organization. One will target the forked repository's `nonprod` branch and the other will target the forked repository's default (`master`/`main`) branch. Add the required variables on the workspaces and authenticate the `azurerm` provider using environment variables in either the workspace variables or a variable set.
 
 ### Config-Driven Import Showcase Usage
 
@@ -24,7 +24,7 @@ This module, and the "Landing Zone" child module which it uses ([HashiCorp Custo
 3. Run either of the `update_imports` scripts, depending on your platforms native shell. Validate `imports.tf` contains the correct import IDs.
 4. *Force Delete the existing Workspace*. Yes, *Force Delete* it! The goal is to showcase importing existing, unmanaged infrastructure into Terraform management.
 5. Commit and push the changes including the updated, uncommented `imports.tf` file to your Fork's remote repo, on the appropriate branch.
-6. Remake your workspace in HCPTF/TFE. This time instead of creating new infrastructure the module should read the import blocks and import the infrastructure into Terraform management.
+6. Remake your workspace in HCPTF/TFE using the same variable values. This time instead of creating new infrastructure the module should read the import blocks and import the infrastructure into Terraform management.
 
 ## Example
 
