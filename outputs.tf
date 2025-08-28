@@ -71,3 +71,8 @@ output "storage_account_resource" {
   value       = module.landing_zone.storage_account_resource
   sensitive   = true
 }
+
+output "import_ids" {
+  description = "Terraform Import IDs for all resources created by this module"
+  value       = module.landing_zone.import_ids
+}
