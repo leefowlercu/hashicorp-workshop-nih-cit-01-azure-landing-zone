@@ -1,6 +1,6 @@
 module "landing_zone" {
-  source  = "<tf-hostname>/<tf-organization-name>/<tf-registry-module-name>/azurerm"
-  version = "<tf-registry-module-version>"
+  source  = "app.terraform.io/nih-cit-workshop/landing-zone/azurerm"
+  version = "1.0.0"
 
   subscription_name  = var.subscription_name
   subscription_class = var.subscription_class
