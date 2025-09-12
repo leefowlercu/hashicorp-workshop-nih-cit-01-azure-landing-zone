@@ -26,6 +26,7 @@ variable "location" {
 variable "vnet_offset" {
   type        = number
   description = "The offset for CIDR block calculation"
+  default     = 0
 }
 
 variable "tags" {
